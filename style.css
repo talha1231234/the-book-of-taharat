@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'jameelfont';
+    src: url(./JameelNooriNastaleeqRegular.ttf);
+}
+
+@font-face {
+    font-family: 'aslamfont';
+    src: url(./AslamAslam.ttf);
+}
+
+@font-face {
+    font-family: 'arabicfont';
+    src: url(./arabicfont.ttf);
+}
+
+@font-face {
+    font-family: 'jannabold';
+    src: url(./JannaLTBold.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans Arabic", sans-serif;
+}
+
+body {
+    /* background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* background: #020024;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%); */
+    background-image: url(https://img.freepik.com/free-photo/abstract-gradient-neon-lights_23-2149279092.jpg?ga=GA1.1.893872672.1747739094&semt=ais_hybrid&w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 2000vh; */
+}
+
+
+.heading1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    background: #dde7c7;
+    color: #4a4e69;
+    /* text-shadow: 2px 2px rgb(235, 58, 4); */
+    margin: 0 25%;
+}
+
+.heading1 h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading2 {
+    text-align: center;
+    font-size: 30px;
+    /* margin-top: 30px; */
+    background: #dde7c7;
+    color: #4a4e69;
+    /* text-shadow: 2px 2px rgb(235, 58, 4); */
+    margin: 0 30%;
+    margin-top: 0.5%;
+}
+
+.heading2 h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading2 img {
+    position: relative;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    background-color: #4070f4;
+    padding: 3px;
+}
+
+.heading2 img {
+    /* height: 100%;
+    width: 100%; */
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.mainwrapper p {
+    text-align: center;
+}
+ 
+
+.titleheading h1 {
+    font-family: 'aslamfont';
+    text-align: center;
+    padding-top: 180px;
+    font-size: 40px;
+    color: #4a4e69;
+}
+
+.titleheading p {
+    color: black;
+}
+
+
+.main {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainwrapper {
+    /* position: relative; */
+    /* background-image: url('background.png');  */
+
+    width: 60%;
+    height: 655px;
+    background-color: #dde7c7;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    ;
+    margin-top: 50px;
+    padding: 0 7px;
+}
+
+.page2content p {
+    text-align: right;
+    padding-right: 5px;
+    font-family: 'aslamfont';
+    font-size: 25px;
+}
+
+.page2content .jamelnori {
+    font-family: "jameelfont";
+    font-size: 20px;
+}
+
+.page2content p {
+    text-align: right;
+    padding-right: 5px;
+    font-family: 'aslamfont';
+    font-size: 25px;
+}
+
+.page2content .jamelnori {
+    font-family: "jameelfont";
+    font-size: 20px;
+}
+
+.page2content .arabicfont {
+    font-family: 'Noto Sans Arabic';
+    font-size: 20px;
+}
+
+.aslamfont {
+    color: #4a4e69;
+}
+
+.page2content .links {
+    background-color: #4070f4;
+    /* height: 100px; */
+    width: 95%;
+    margin-left: 22px;
+    padding: 3px;
+}
+
+.page2content .articles {
+    text-align: center;
+    color: white;
+
+
+}
+
+.linkcontent {
+    background-color: rgb(159, 47, 6);
+    border-radius: 30px;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: burlywood;
+    display: block;
+    margin-top: 5px;
+    border-radius: 15px;
+}
+
+.titleheadingwozo h1 {
+    font-family: 'aslamfont';
+    text-align: center;
+    padding-top: 200px;
+    font-size: 40px;
+    color: #4a4e69;
+}
+
+.mainwrapper .hawala {
+    text-align: left;
+    
+}
+
+.videos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.videos iframe {
+    margin-top: 20px;
+    box-shadow: rgba(300, 0, 0, 1) 0px 6px 8px;
+    /* margin-left: 230px; */
+    
+}
+
+
+.page2content .wuzoimages {
+    margin-left: 71%;
+    border-radius: 8px;
+    border: 3px solid #a64b4b;
+}
+
+
+.page2content .sunnat {
+    background: rgb(0, 44, 59);
+    color: #ffffff;
+    width: 40%;
+    margin: 0 30%;
+    border: 1px solid rgb(232, 153, 6);
+    border-radius: 10px;
+    line-height: 35px;
+    font-size: 22;
+    margin-top: 10px;
+}
+
+.page2content .p1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.page2content .p2{
+    text-align: center;
+}
+
+.page2content .gusulsunnat{
+    width: 50%;
+     margin: 0 25%;
+     margin-top: 10px;
+}
+
+.page2content .p3{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
